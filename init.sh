@@ -1,6 +1,7 @@
 #!/bin/bash
 # test
 # test from hwy
+# test from macbook
 # usage: addenv env_name path
 function addenv() {
   sed -i -e "/^export $1=.*/d" ~/.bashrc
