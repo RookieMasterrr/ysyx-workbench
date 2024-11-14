@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# test
 # usage: addenv env_name path
 function addenv() {
   sed -i -e "/^export $1=.*/d" ~/.bashrc
